@@ -14,7 +14,7 @@ export default function File(props: FileProps) {
       target='_blank'
       className='w-fit text-lg space-x-2 flex flex-row my-3 items-center hover:text-primary [transition:color_.25s]'
     >
-      <FileIcon className='flex-shrink-0' size={24} color='#16a34a' />
+      <FileIcon className='flex-shrink-0' size={24} color='#22C55D' />
       <span className='underline'>
         {props.nome.charAt(0).toUpperCase() + props.nome.slice(1)}
       </span>
