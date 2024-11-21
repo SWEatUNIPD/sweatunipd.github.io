@@ -16,6 +16,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "SWE@",
   description: "Every line of code is worth the SWEat",
+  icons: "/favicon.ico",
 };
 
 export default function RootLayout({
