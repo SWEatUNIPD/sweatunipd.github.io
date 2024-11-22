@@ -1,7 +1,7 @@
 <p align="center">
     <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./logo/logo_dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./logo/img/logo.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./logo/logo.svg">
     <img width="400" alt="Shows a black logo in light color mode and a white one in dark color mode." src="./assets/img/logo_dark.svg">
     </picture>
 </p>
