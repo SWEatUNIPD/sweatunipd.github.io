@@ -1,7 +1,7 @@
 "use client";
 
 import { FaGithub } from "react-icons/fa";
-import Logo from "@/components/logo";
+import Logo from "@/components/ui/logo";
 import {
   Card,
   CardContent,
@@ -12,7 +12,7 @@ import {
 import FileListing from "@/index.json";
 import { ChevronRight, FolderCode } from "lucide-react";
 import Link from "next/link";
-import File from "@/components/file";
+import File from "@/components/ui/file";
 import { Button } from "@/components/ui/button";
 
 export type FileType = {
