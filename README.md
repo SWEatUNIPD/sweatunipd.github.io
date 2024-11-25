@@ -12,7 +12,7 @@ La seguente repository contiene i sorgenti prodotti per la creazione del sito di
 
 È possibile consultare il sito web tramite il seguente link: https://sweatunipd.github.io/.
 
-Ricordiamo inoltre che è possibile consultare le build della documentazione del gruppo in directory listing tramite [sito collegato alla repository della documentazione](https://sweatunipd.github.io/).
+Ricordiamo inoltre che è possibile consultare le build della documentazione del gruppo in directory listing tramite [sito collegato alla repository della documentazione](https://sweatunipd.github.io/docs).
 
 ## Componenti del gruppo
 
