@@ -80,13 +80,13 @@
     "documenti_generali": [
       {
         "nome": "glossario",
-        "versione": "2.0.0",
-        "link": "https://sweatunipd.github.io/docs/rtb/glossario_ver2.0.0.pdf"
+        "versione": "3.1.0",
+        "link": "https://sweatunipd.github.io/docs/rtb/glossario_ver3.1.0.pdf"
       },
       {
         "nome": "norme di progetto",
-        "versione": "2.0.0",
-        "link": "https://sweatunipd.github.io/docs/rtb/norme_di_progetto_ver2.0.0.pdf"
+        "versione": "3.0.0",
+        "link": "https://sweatunipd.github.io/docs/rtb/norme_di_progetto_ver3.0.0.pdf"
       }
     ]
   },
