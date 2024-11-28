@@ -36,9 +36,9 @@
     ],
     "documenti_generali": [
       {
-        "nome": "dichiarazione impegni preventivo costi",
+        "nome": "dichiarazione impegni e preventivo costi",
         "versione": "1.1.0",
-        "link": "https://sweatunipd.github.io/docs/candidatura/dichiarazione_impegni_preventivo_costi_ver1.1.0.pdf"
+        "link": "https://sweatunipd.github.io/docs/candidatura/dichiarazione_impegni_e_preventivo_costi_ver1.1.0.pdf"
       },
       {
         "nome": "lettera di presentazione candidatura",
@@ -80,13 +80,18 @@
     "documenti_generali": [
       {
         "nome": "glossario",
-        "versione": "3.1.0",
-        "link": "https://sweatunipd.github.io/docs/rtb/glossario_ver3.1.0.pdf"
+        "versione": "3.2.0",
+        "link": "https://sweatunipd.github.io/docs/rtb/glossario_ver3.2.0.pdf"
       },
       {
         "nome": "norme di progetto",
         "versione": "3.0.0",
         "link": "https://sweatunipd.github.io/docs/rtb/norme_di_progetto_ver3.0.0.pdf"
+      },
+      {
+        "nome": "piano di progetto",
+        "versione": "1.0.0",
+        "link": "https://sweatunipd.github.io/docs/rtb/piano_di_progetto_ver1.0.0.pdf"
       }
     ]
   },
