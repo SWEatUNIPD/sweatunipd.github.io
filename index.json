@@ -79,6 +79,11 @@
     ],
     "documenti_generali": [
       {
+        "nome": "analisi dei requisiti",
+        "versione": "1.1.0",
+        "link": "https://sweatunipd.github.io/docs/rtb/analisi_dei_requisiti_ver1.1.0.pdf"
+      },
+      {
         "nome": "glossario",
         "versione": "3.2.0",
         "link": "https://sweatunipd.github.io/docs/rtb/glossario_ver3.2.0.pdf"
