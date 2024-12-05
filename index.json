@@ -56,8 +56,18 @@
     "verbali_esterni": [
       {
         "nome": "VE 2024-11-13",
-        "versione": "1.0.1",
-        "link": "https://sweatunipd.github.io/docs/rtb/verbali/esterni/VE_2024-11-13_ver1.0.1.pdf"
+        "versione": "1.0.2",
+        "link": "https://sweatunipd.github.io/docs/rtb/verbali/esterni/VE_2024-11-13_ver1.0.2.pdf"
+      },
+      {
+        "nome": "VE 2024-11-20",
+        "versione": "1.0.0",
+        "link": "https://sweatunipd.github.io/docs/rtb/verbali/esterni/VE_2024-11-20_ver1.0.0.pdf"
+      },
+      {
+        "nome": "VE 2024-11-27",
+        "versione": "1.0.0",
+        "link": "https://sweatunipd.github.io/docs/rtb/verbali/esterni/VE_2024-11-27_ver1.0.0.pdf"
       }
     ],
     "verbali_interni": [
