@@ -100,6 +100,11 @@
       },
       {
         "nome": "glossario",
+        "versione": "0.7.1",
+        "link": "https://sweatunipd.github.io/docs/rtb/glossario_ver0.7.1.pdf"
+      },
+      {
+        "nome": "glossario",
         "versione": "0.8.0",
         "link": "https://sweatunipd.github.io/docs/rtb/glossario_ver0.8.0.pdf"
       },
