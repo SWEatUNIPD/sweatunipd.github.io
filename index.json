@@ -100,18 +100,13 @@
     "documenti_generali": [
       {
         "nome": "analisi dei requisiti",
-        "versione": "0.2.0",
-        "link": "https://sweatunipd.github.io/docs/rtb/analisi_dei_requisiti_ver0.2.0.pdf"
+        "versione": "0.3.0",
+        "link": "https://sweatunipd.github.io/docs/rtb/analisi_dei_requisiti_ver0.3.0.pdf"
       },
       {
         "nome": "glossario",
-        "versione": "0.7.1",
-        "link": "https://sweatunipd.github.io/docs/rtb/glossario_ver0.7.1.pdf"
-      },
-      {
-        "nome": "glossario",
-        "versione": "0.8.0",
-        "link": "https://sweatunipd.github.io/docs/rtb/glossario_ver0.8.0.pdf"
+        "versione": "0.10.0",
+        "link": "https://sweatunipd.github.io/docs/rtb/glossario_ver0.10.0.pdf"
       },
       {
         "nome": "norme di progetto",
