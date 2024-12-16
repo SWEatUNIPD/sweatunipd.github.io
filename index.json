@@ -109,14 +109,19 @@
         "link": "https://sweatunipd.github.io/docs/rtb/glossario_ver0.10.0.pdf"
       },
       {
+        "nome": "glossario",
+        "versione": "0.9.0",
+        "link": "https://sweatunipd.github.io/docs/rtb/glossario_ver0.9.0.pdf"
+      },
+      {
         "nome": "norme di progetto",
         "versione": "0.4.0",
         "link": "https://sweatunipd.github.io/docs/rtb/norme_di_progetto_ver0.4.0.pdf"
       },
       {
         "nome": "piano di progetto",
-        "versione": "0.1.1",
-        "link": "https://sweatunipd.github.io/docs/rtb/piano_di_progetto_ver0.1.1.pdf"
+        "versione": "0.2.0",
+        "link": "https://sweatunipd.github.io/docs/rtb/piano_di_progetto_ver0.2.0.pdf"
       },
       {
         "nome": "piano di qualifica",
