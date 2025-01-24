@@ -135,13 +135,18 @@
     "documenti_generali": [
       {
         "nome": "analisi dei requisiti",
-        "versione": "0.6.0",
-        "link": "https://sweatunipd.github.io/docs/rtb/analisi_dei_requisiti_ver0.6.0.pdf"
+        "versione": "1.0.0",
+        "link": "https://sweatunipd.github.io/docs/rtb/analisi_dei_requisiti_ver1.0.0.pdf"
       },
       {
         "nome": "glossario",
         "versione": "0.14.0",
         "link": "https://sweatunipd.github.io/docs/rtb/glossario_ver0.14.0.pdf"
+      },
+      {
+        "nome": "lettera di consegna rtb",
+        "versione": null,
+        "link": "https://sweatunipd.github.io/docs/rtb/lettera_di_consegna_rtb.pdf"
       },
       {
         "nome": "norme di progetto",
