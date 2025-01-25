@@ -8,6 +8,7 @@ export type FileProps = {
 };
 
 export default function File(props: FileProps) {
+  const nome = props.nome.replace("rtb", "RTB");
   return (
     <a
       href={props.link}
@@ -16,7 +17,7 @@ export default function File(props: FileProps) {
     >
       <FileIcon className='flex-shrink-0' size={24} color='#22C55D' />
       <span className='underline'>
-        {props.nome.charAt(0).toUpperCase() + props.nome.slice(1)}
+        {nome.charAt(0).toUpperCase() + nome.slice(1)}
       </span>
       {props.versione && <Badge variant='default'>{props.versione}</Badge>}
     </a>
