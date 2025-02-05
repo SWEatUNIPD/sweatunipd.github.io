@@ -140,8 +140,8 @@
     "documenti_generali": [
       {
         "nome": "analisi dei requisiti",
-        "versione": "1.0.0",
-        "link": "https://sweatunipd.github.io/docs/rtb/analisi_dei_requisiti_ver1.0.0.pdf"
+        "versione": "1.0.1",
+        "link": "https://sweatunipd.github.io/docs/rtb/analisi_dei_requisiti_ver1.0.1.pdf"
       },
       {
         "nome": "glossario",
@@ -155,18 +155,18 @@
       },
       {
         "nome": "norme di progetto",
-        "versione": "1.0.0",
-        "link": "https://sweatunipd.github.io/docs/rtb/norme_di_progetto_ver1.0.0.pdf"
+        "versione": "1.0.1",
+        "link": "https://sweatunipd.github.io/docs/rtb/norme_di_progetto_ver1.0.1.pdf"
       },
       {
         "nome": "piano di progetto",
-        "versione": "1.0.0",
-        "link": "https://sweatunipd.github.io/docs/rtb/piano_di_progetto_ver1.0.0.pdf"
+        "versione": "1.0.1",
+        "link": "https://sweatunipd.github.io/docs/rtb/piano_di_progetto_ver1.0.1.pdf"
       },
       {
         "nome": "piano di qualifica",
-        "versione": "1.0.0",
-        "link": "https://sweatunipd.github.io/docs/rtb/piano_di_qualifica_ver1.0.0.pdf"
+        "versione": "1.0.1",
+        "link": "https://sweatunipd.github.io/docs/rtb/piano_di_qualifica_ver1.0.1.pdf"
       }
     ]
   },
