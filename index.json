@@ -149,9 +149,9 @@
         "link": "https://sweatunipd.github.io/docs/rtb/glossario_ver1.0.0.pdf"
       },
       {
-        "nome": "lettera di consegna rtb",
+        "nome": "lettera di presentazione rtb",
         "versione": null,
-        "link": "https://sweatunipd.github.io/docs/rtb/lettera_di_consegna_rtb.pdf"
+        "link": "https://sweatunipd.github.io/docs/rtb/lettera_di_presentazione_rtb.pdf"
       },
       {
         "nome": "norme di progetto",
@@ -173,6 +173,37 @@
   "pb": {
     "verbali_esterni": [],
     "verbali_interni": [],
-    "documenti_generali": []
+    "documenti_generali": [
+      {
+        "nome": "analisi dei requisiti",
+        "versione": "1.0.1",
+        "link": "https://sweatunipd.github.io/docs/pb/analisi_dei_requisiti_ver1.0.1.pdf"
+      },
+      {
+        "nome": "glossario",
+        "versione": "1.0.1",
+        "link": "https://sweatunipd.github.io/docs/pb/glossario_ver1.0.1.pdf"
+      },
+      {
+        "nome": "lettera di presentazione rtb",
+        "versione": null,
+        "link": "https://sweatunipd.github.io/docs/pb/lettera_di_presentazione_rtb.pdf"
+      },
+      {
+        "nome": "norme di progetto",
+        "versione": "1.0.1",
+        "link": "https://sweatunipd.github.io/docs/pb/norme_di_progetto_ver1.0.1.pdf"
+      },
+      {
+        "nome": "piano di progetto",
+        "versione": "1.0.1",
+        "link": "https://sweatunipd.github.io/docs/pb/piano_di_progetto_ver1.0.1.pdf"
+      },
+      {
+        "nome": "piano di qualifica",
+        "versione": "1.0.1",
+        "link": "https://sweatunipd.github.io/docs/pb/piano_di_qualifica_ver1.0.1.pdf"
+      }
+    ]
   }
 }
