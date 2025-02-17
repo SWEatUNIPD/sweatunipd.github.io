@@ -172,7 +172,13 @@
   },
   "pb": {
     "verbali_esterni": [],
-    "verbali_interni": [],
+    "verbali_interni": [
+      {
+        "nome": "VI 2025-02-10",
+        "versione": null,
+        "link": "https://sweatunipd.github.io/docs/pb/verbali/interni/VI_2025-02-10.pdf"
+      }
+    ],
     "documenti_generali": [
       {
         "nome": "analisi dei requisiti",
