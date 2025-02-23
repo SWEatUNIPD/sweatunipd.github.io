@@ -2,7 +2,7 @@
 
 import { FaGithub } from "react-icons/fa";
 import { AnimatePresence, motion } from "motion/react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   Card,
   CardContent,
@@ -17,6 +17,7 @@ import File from "@/components/ui/file";
 import { Button } from "@/components/ui/button";
 import { AuroraText } from "@/components/magicui/aurora-text";
 import { clsx } from "clsx";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export type FileType = {
   nome: string;
@@ -45,6 +46,12 @@ type FileList = {
 export default function Home() {
   const fileListing: FileList = FileListing;
   const [isOpen, setIsOpen] = useState<boolean>(false);
+
+  useEffect(() => {
+    document.onkeydown = (e) => {
+      if (e.code == "Escape") setIsOpen(false);
+    };
+  }, []);
 
   return (
     <>
@@ -135,6 +142,11 @@ export default function Home() {
               Candidatura
             </Link>
           </li>
+          <li>
+            <Link className='hover:text-primary text-left' href='#contatti'>
+              Contatti
+            </Link>
+          </li>
         </ul>
       </header>
       <AnimatePresence>
@@ -203,6 +215,24 @@ export default function Home() {
                   onClick={() => setIsOpen(false)}
                 >
                   Candidatura
+                </Link>
+              </motion.li>
+              <motion.li
+                initial={{ scale: 0, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                transition={{
+                  type: "tween",
+                  stiffness: 260,
+                  damping: 20,
+                  delay: 0.2 + 4 / 10,
+                }}
+              >
+                <Link
+                  className='hover:text-primary'
+                  href='#contatti'
+                  onClick={() => setIsOpen(false)}
+                >
+                  Contatti
                 </Link>
               </motion.li>
             </ul>
@@ -430,6 +460,109 @@ export default function Home() {
                   isDocument
                 />
               ))}
+            </div>
+          </CardContent>
+        </Card>
+        <Card id='contatti' className='scroll-mt-24'>
+          <CardHeader>
+            <CardTitle>
+              <h2 className='flex flex-row items-center scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0'>
+                <ChevronRight color='#04E824' size={32} strokeWidth={3} />
+                Contatti
+              </h2>
+            </CardTitle>
+          </CardHeader>
+          <CardContent className='flex flex-col items-baseline justify-center space-y-3'>
+            <div className='flex flex-row items-center justify-between w-auto'>
+              <Avatar>
+                <AvatarImage src='https://avatars.githubusercontent.com/u/148521685?v=4' />
+                <AvatarFallback>AP</AvatarFallback>
+              </Avatar>
+              <Link
+                href='https://github.com/perruzz'
+                target='_blank'
+                className='ml-2 underline underline-offset-2'
+              >
+                Andrea Perozzo
+              </Link>
+            </div>
+            <div className='flex flex-row items-center justify-between w-auto'>
+              <Avatar>
+                <AvatarImage src='https://avatars.githubusercontent.com/u/91291702?v=4' />
+                <AvatarFallback>AP</AvatarFallback>
+              </Avatar>
+              <Link
+                href='https://github.com/erpreco'
+                target='_blank'
+                className='ml-2 underline underline-offset-2'
+              >
+                Andrea Precoma
+              </Link>
+            </div>
+            <div className='flex flex-row items-center justify-between w-auto'>
+              <Avatar>
+                <AvatarImage src='https://avatars.githubusercontent.com/u/83000107?v=4' />
+                <AvatarFallback>DM</AvatarFallback>
+              </Avatar>
+              <Link
+                href='https://github.com/marindavide'
+                target='_blank'
+                className='ml-2 underline underline-offset-2'
+              >
+                Davide Marin
+              </Link>
+            </div>
+            <div className='flex flex-row items-center justify-between w-auto'>
+              <Avatar>
+                <AvatarImage src='https://avatars.githubusercontent.com/u/149704818?v=4' />
+                <AvatarFallback>DM</AvatarFallback>
+              </Avatar>
+              <Link
+                href='https://github.com/davim02'
+                target='_blank'
+                className='ml-2 underline underline-offset-2'
+              >
+                Davide Martinelli
+              </Link>
+            </div>
+            <div className='flex flex-row items-center justify-between w-auto'>
+              <Avatar>
+                <AvatarImage src='https://avatars.githubusercontent.com/u/119404292?v=4' />
+                <AvatarFallback>DP</AvatarFallback>
+              </Avatar>
+              <Link
+                href='https://github.com/DavidePicc'
+                target='_blank'
+                className='ml-2 underline underline-offset-2'
+              >
+                Davide Picello
+              </Link>
+            </div>
+            <div className='flex flex-row items-center justify-between w-auto'>
+              <Avatar>
+                <AvatarImage src='https://avatars.githubusercontent.com/u/43652136?v=4' />
+                <AvatarFallback>KM</AvatarFallback>
+              </Avatar>
+              <Link
+                href='https://github.com/klamerja'
+                target='_blank'
+                className='ml-2 underline underline-offset-2'
+              >
+                Klaudio Merja
+              </Link>
+            </div>
+            <div className='flex flex-row items-center justify-between w-auto'>
+              <Avatar>
+                <AvatarImage src='https://avatars.githubusercontent.com/u/145909678?v=4' />
+                <AvatarFallback>RM</AvatarFallback>
+              </Avatar>
+              <Link
+                href='https://github.com/milanriccardo03'
+                target='_blank'
+                className='ml-2 underline underline-offset-2'
+              >
+                Riccardo Milan
+              </Link>
             </div>
           </CardContent>
         </Card>
