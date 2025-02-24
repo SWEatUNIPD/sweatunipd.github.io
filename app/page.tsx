@@ -144,7 +144,7 @@ export default function Home() {
           </li>
           <li>
             <Link className='hover:text-primary text-left' href='#contatti'>
-              Contatti
+              Chi siamo
             </Link>
           </li>
         </ul>
@@ -232,7 +232,7 @@ export default function Home() {
                   href='#contatti'
                   onClick={() => setIsOpen(false)}
                 >
-                  Contatti
+                  Chi siamo
                 </Link>
               </motion.li>
             </ul>
@@ -468,7 +468,7 @@ export default function Home() {
             <CardTitle>
               <h2 className='flex flex-row items-center scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0'>
                 <ChevronRight color='#04E824' size={32} strokeWidth={3} />
-                Contatti
+                Chi siamo
               </h2>
             </CardTitle>
           </CardHeader>
