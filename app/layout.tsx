@@ -25,15 +25,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='it' className='bg-background dark:dark'>
-      {/* <head>
-        <script
-          src='https://unpkg.com/react-scan/dist/auto.global.js'
-          async
-        ></script>
-      </head> */}
+    <html
+      lang='it'
+      className='bg-background dark:dark max-w-[1024px] m-auto scroll-smooth'
+    >
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased max-w-[1024px] m-auto`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>
