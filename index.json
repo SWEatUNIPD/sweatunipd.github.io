@@ -233,13 +233,18 @@
       },
       {
         "nome": "glossario",
+        "versione": "1.3.0",
+        "link": "https://sweatunipd.github.io/docs/pb/glossario_ver1.3.0.pdf"
+      },
+      {
+        "nome": "glossario",
         "versione": "1.4.0",
         "link": "https://sweatunipd.github.io/docs/pb/glossario_ver1.4.0.pdf"
       },
       {
         "nome": "manuale utente",
-        "versione": "0.1.0",
-        "link": "https://sweatunipd.github.io/docs/pb/manuale_utente_ver0.1.0.pdf"
+        "versione": "1.0.0",
+        "link": "https://sweatunipd.github.io/docs/pb/manuale_utente_ver1.0.0.pdf"
       },
       {
         "nome": "norme di progetto",
