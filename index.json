@@ -233,11 +233,6 @@
       },
       {
         "nome": "glossario",
-        "versione": "1.4.0",
-        "link": "https://sweatunipd.github.io/docs/pb/glossario_ver1.4.0.pdf"
-      },
-      {
-        "nome": "glossario",
         "versione": "2.0.0",
         "link": "https://sweatunipd.github.io/docs/pb/glossario_ver2.0.0.pdf"
       },
@@ -258,13 +253,13 @@
       },
       {
         "nome": "piano di qualifica",
-        "versione": "1.5.0",
-        "link": "https://sweatunipd.github.io/docs/pb/piano_di_qualifica_ver1.5.0.pdf"
+        "versione": "2.0.0",
+        "link": "https://sweatunipd.github.io/docs/pb/piano_di_qualifica_ver2.0.0.pdf"
       },
       {
         "nome": "specifica tecnica",
-        "versione": "0.5.0",
-        "link": "https://sweatunipd.github.io/docs/pb/specifica_tecnica_ver0.5.0.pdf"
+        "versione": "1.0.0",
+        "link": "https://sweatunipd.github.io/docs/pb/specifica_tecnica_ver1.0.0.pdf"
       }
     ]
   }
