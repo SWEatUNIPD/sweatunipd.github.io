@@ -282,8 +282,17 @@ export default function Home() {
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <h3 className='scroll-m-20 text-2xl font-semibold tracking-tight'>
-              Documenti generali
+            <div className='w-full'>
+              <File
+                nome='Minimum Viable Product'
+                versione={null}
+                link='https://github.com/SWEatUNIPD/NearYou/releases/tag/v2.0.0'
+                isDocument={false}
+              />
+              {/* file */}
+            </div>
+            <h3 className='scroll-m-20 text-2xl font-semibold tracking-tight mt-7'>
+              Documenti di progetto
             </h3>
             <div className='w-full'>
               {fileListing.pb.documenti_generali?.map((element, idx) => (
