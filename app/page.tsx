@@ -300,29 +300,33 @@ export default function Home() {
               Verbali esterni
             </h3>
             <div className='w-full'>
-              {fileListing.pb.verbali_esterni?.map((element, idx) => (
-                <File
-                  key={idx}
-                  nome={element.nome}
-                  versione={element.versione}
-                  link={element.link}
-                  isDocument
-                />
-              ))}
+              {fileListing.pb.verbali_esterni
+                ?.map((element, idx) => (
+                  <File
+                    key={idx}
+                    nome={element.nome}
+                    versione={element.versione}
+                    link={element.link}
+                    isDocument
+                  />
+                ))
+                .reverse()}
             </div>
             <h3 className='scroll-m-20 text-2xl font-semibold tracking-tight mt-7'>
               Verbali interni
             </h3>
             <div className='w-full'>
-              {fileListing.pb.verbali_interni?.map((element, idx) => (
-                <File
-                  key={idx}
-                  nome={element.nome}
-                  versione={element.versione}
-                  link={element.link}
-                  isDocument
-                />
-              ))}
+              {fileListing.pb.verbali_interni
+                ?.map((element, idx) => (
+                  <File
+                    key={idx}
+                    nome={element.nome}
+                    versione={element.versione}
+                    link={element.link}
+                    isDocument
+                  />
+                ))
+                .reverse()}
             </div>
           </CardContent>
         </Card>
@@ -351,7 +355,7 @@ export default function Home() {
               <File
                 nome='Lettera di presentazione RTB'
                 versione={null}
-                link='https://sweatunipd.github.io/docs/rtb/lettera_di_consegna_rtb.pdf'
+                link='https://sweatunipd.github.io/docs/rtb/lettera_di_presentazione_rtb.pdf'
                 isDocument
               />
             </div>
@@ -375,29 +379,33 @@ export default function Home() {
               Verbali esterni
             </h3>
             <div className='w-full'>
-              {fileListing.rtb.verbali_esterni?.map((element, idx) => (
-                <File
-                  key={idx}
-                  nome={element.nome}
-                  versione={element.versione}
-                  link={element.link}
-                  isDocument
-                />
-              ))}
+              {fileListing.rtb.verbali_esterni
+                ?.map((element, idx) => (
+                  <File
+                    key={idx}
+                    nome={element.nome}
+                    versione={element.versione}
+                    link={element.link}
+                    isDocument
+                  />
+                ))
+                .reverse()}
             </div>
             <h3 className='scroll-m-20 text-2xl font-semibold tracking-tight mt-7'>
               Verbali interni
             </h3>
             <div className='w-full'>
-              {fileListing.rtb.verbali_interni?.map((element, idx) => (
-                <File
-                  key={idx}
-                  nome={element.nome}
-                  versione={element.versione}
-                  link={element.link}
-                  isDocument
-                />
-              ))}
+              {fileListing.rtb.verbali_interni
+                ?.map((element, idx) => (
+                  <File
+                    key={idx}
+                    nome={element.nome}
+                    versione={element.versione}
+                    link={element.link}
+                    isDocument
+                  />
+                ))
+                .reverse()}
             </div>
           </CardContent>
         </Card>
@@ -437,29 +445,33 @@ export default function Home() {
               Verbali esterni
             </h3>
             <div className='w-full'>
-              {fileListing.candidatura.verbali_esterni?.map((element, idx) => (
-                <File
-                  key={idx}
-                  nome={element.nome}
-                  versione={element.versione}
-                  link={element.link}
-                  isDocument
-                />
-              ))}
+              {fileListing.candidatura.verbali_esterni
+                ?.map((element, idx) => (
+                  <File
+                    key={idx}
+                    nome={element.nome}
+                    versione={element.versione}
+                    link={element.link}
+                    isDocument
+                  />
+                ))
+                .reverse()}
             </div>
             <h3 className='scroll-m-20 text-2xl font-semibold tracking-tight mt-7'>
               Verbali interni
             </h3>
             <div className='w-full'>
-              {fileListing.candidatura.verbali_interni?.map((element, idx) => (
-                <File
-                  key={idx}
-                  nome={element.nome}
-                  versione={element.versione}
-                  link={element.link}
-                  isDocument
-                />
-              ))}
+              {fileListing.candidatura.verbali_interni
+                ?.map((element, idx) => (
+                  <File
+                    key={idx}
+                    nome={element.nome}
+                    versione={element.versione}
+                    link={element.link}
+                    isDocument
+                  />
+                ))
+                .reverse()}
             </div>
           </CardContent>
         </Card>
