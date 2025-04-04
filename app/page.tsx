@@ -289,7 +289,12 @@ export default function Home() {
                 link='https://github.com/SWEatUNIPD/NearYou/releases/tag/v2.0.0'
                 isDocument={false}
               />
-              {/* file */}
+              <File
+                nome='Lettera di presentazione PB'
+                versione={null}
+                link='https://sweatunipd.github.io/docs/pb/lettera_di_presentazione_pb.pdf'
+                isDocument
+              />
             </div>
             <h3 className='scroll-m-20 text-2xl font-semibold tracking-tight mt-7'>
               Documenti di progetto
