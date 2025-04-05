@@ -300,15 +300,17 @@ export default function Home() {
               Documenti di progetto
             </h3>
             <div className='w-full'>
-              {fileListing.pb.documenti_generali?.map((element, idx) => (
-                <File
-                  key={idx}
-                  nome={element.nome}
-                  versione={element.versione}
-                  link={element.link}
-                  isDocument
-                />
-              ))}
+              {fileListing.pb.documenti_generali
+                ?.filter((doc) => doc.nome.indexOf("lettera") == -1)
+                .map((element, idx) => (
+                  <File
+                    key={idx}
+                    nome={element.nome}
+                    versione={element.versione}
+                    link={element.link}
+                    isDocument
+                  />
+                ))}
             </div>
             <h3 className='scroll-m-20 text-2xl font-semibold tracking-tight mt-7'>
               Verbali esterni
